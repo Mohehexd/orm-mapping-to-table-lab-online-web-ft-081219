@@ -32,7 +32,7 @@ class Student
     sql = <<-SQL 
       INSERT INTO students
         SQL 
-        
+    DB[:conn].execute(sql)    
     
   end 
   
